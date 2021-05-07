@@ -1,0 +1,23 @@
+.container{
+    margin: auto;
+    border-style: solid;
+    border-color: rgba(46, 34, 100, 0.507);
+    width: 500px;
+    height: 950px;
+    background-color: rgba(46, 34, 100, 0.507);
+}
+
+.container-form{
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+.recommendatios-fc{
+    color: white;
+}

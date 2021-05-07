@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Reto formulario</title>
+</head>
+<body>
+    <h1 id="titlep">Reto de Formulario Encuesta</h1>
+    <p id="description">Gracias por tomarte el tiempo de ayudarnos a mejorar la plataforma </p>
+
+
+    <div class="container">
+        <div class="container-form">
+            <form action="" id="survey-form">    
+                <label id="name-label" for="">Nombre</label><br>
+                <input type="text" id="name" placeholder="Escribe tu nombre completo"><br><br>
+                <label id="email-label" for="">Correo electrónico</label><br>
+                <input type="email" id="email" placeholder="Escribe tu correo"><br><br>
+                <label id="number-label" for="">Edad</label><br>
+                <input type="number" id="number" placeholder="Edad"><br><br>
+                <label id="x-label" for="">¿Cuál opción describe mejor tu rol actual?</label><br>
+                <select name="" id="dropdown-one">
+                    <option value="">Estudiante</option>
+                    <option value="">Trabajado tiempo completo</option>
+                    <option value="">Aprendiz tiempo completo</option>
+                    <option value="">Prefiero no decir</option>
+                    <option value="">Otro</option>
+                </select><br>
+                <br>
+                <label for="">¿Recomendarías freeCodeCamp a un amigo?</label><br>
+                <div class="recommendatios-fc">
+                <input type="radio" name= "recommendation" value="1">Definitivamente
+                <br>
+                <input type="radio" name= "recommendation" value="2">Tal vez
+                <br>
+                <input type="radio" name= "recommendation" value="3">No estoy seguro
+                </div>
+                <br>
+                <label for="">¿Cuál es tu característica favorita de freeCodeCamp?</label><br>
+                <select name="" id="dropdown-two">
+                    <option value="">Retos</option>
+                    <option value="">Proyectos</option>
+                    <option value="">Comunidad</option>
+                    <option value="">Código abierto</option>
+                </select>
+                <br><br>
+                <label for="">¿Qué te gustaría que se mejorara? (Marca todo lo que aplique</label><br>
+                <div class="improve-fc">
+                <input type="checkbox" name="improve" value="1"> Proyectos Front-end <br>
+                <input type="checkbox" name="improve" value="2"> Proyectos Back-end <br>
+                <input type="checkbox" name="improve" value="3"> Visualización de datos <br>
+                <input type="checkbox" name="improve" value="4"> Retos <br>
+                <input type="checkbox" name="improve" value="5"> Comunidad de código abierto <br>
+                <input type="checkbox" name="improve" value="6"> Sala de ayuda Gitter <br>
+                <input type="checkbox" name="improve" value="7"> Videos <br>
+                <input type="checkbox" name="improve" value="8"> Encuentros en la ciudad <br>
+                <input type="checkbox" name="improve" value="9"> Wiki <br>
+                <input type="checkbox" name="improve" value="10"> Foros <br>
+                <input type="checkbox" name="improve" value="11"> Cursos adicionales <br><br>
+                <label for="?">¿Tienes algunos comentarios o sugerencias?</label><br>
+                </div>
+                <textarea name="" id="Comments" cols="50" rows="10"></textarea><br><br>
+                <button id= submit>Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
