@@ -1,9 +1,15 @@
+body{
+    background: linear-gradient(to right, hsla(135, 46%, 55%, 0.6), hsla(261, 61%, 69%, 0.6), rgba(92, 38, 193, 0.6)), url(../images/personas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container{
     margin: auto;
     border-style: solid;
     border-color: rgba(46, 34, 100, 0.507);
     width: 500px;
-    height: 950px;
+    height: 980px;
     background-color: rgba(46, 34, 100, 0.507);
 }
 
@@ -21,3 +27,28 @@ label{
 .recommendatios-fc{
     color: white;
 }
+
+#titlep{
+    color:white;
+    text-align: center;
+}
+
+#description{
+    color:white;
+    text-align: center;
+}
+
+.improve-fc{
+    color: white;
+}
+
+#submit{
+    padding: 6px;
+    background-color: rgb(52, 146, 52);
+    margin-left: 45px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+}
+
