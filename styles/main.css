@@ -1,7 +1,25 @@
 body{
+
     background: linear-gradient(to right, hsla(135, 46%, 55%, 0.6), hsla(261, 61%, 69%, 0.6), rgba(92, 38, 193, 0.6)), url(../images/personas.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
+    width: 100%;
+}
+.improve-fc{
+    color: white;
+}
+
+.container{
+    color: white;
+    font-weight: bold;
+}
+
+/* body{
+    background: linear-gradient(to right, hsla(135, 46%, 55%, 0.6), hsla(261, 61%, 69%, 0.6), rgba(92, 38, 193, 0.6)), url(../images/personas.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
 }
 
 .container{
@@ -50,5 +68,5 @@ label{
     height: 50px;
     color: white;
     font-size: 25px;
-}
+} */
 
